@@ -103,7 +103,12 @@ footer{
           width: 65%;
           margin-left: -160px;
 }
-
+.check{
+          margin-left: -10px;
+}
+#pin{
+          margin-left: -5px;
+}
 
 
 }
