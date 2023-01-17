@@ -14,7 +14,11 @@ main{
 .logo h1{
           font-size: 40px;
 }
+.logo i{
+          /* color: black; */
+          font-size: 35px;
 
+}
 form{
           margin-bottom: 30px;
           margin-top: 15px;
@@ -32,6 +36,12 @@ input{
 }
 p{
           margin-left: -40px;
+}
+.check{
+          margin-left: 0px;
+}
+#pin{
+          margin-left: -10px;
 }
 button{
           width: 90%;
