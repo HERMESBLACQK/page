@@ -31,6 +31,10 @@ main{
           font-size: 50px;
           font-weight: 800;
 }
+.logo i{
+          /* color: black; */
+          font-size: 35px;
+}
 form{
           margin: 100px 0 50px 0;
           background: white;
@@ -138,14 +142,12 @@ footer{
           width: 25%;
           justify-content: left;
           align-items: center;
-          border: 3px solid red;
           margin-left: 80px;
           padding: 20px;
           margin-top: 10px;
 }
 .social-links p{
           font-size: 20px;
-          /* border: 3px solid blue; */
           width: 100%;
           color: #959595;
 }
@@ -177,41 +179,7 @@ footer{
           background: #afadad;
           margin-left: 80px;
 }
-.links-1{
-          display: flex;
-          width: 90%;
-          flex-wrap: wrap;
-          margin-left: 80px;
-          /* justify-content: space-evenly; */
-          /* border: 2px solid red; */
-}
-.links-1 li{
-          list-style: none;
-}
-.links-1 li a{
-          font-size: 12px;
-          /* text-decoration: none; */
-}
-.soc-1{
-          width: 28%;
-          display: flex;
-          /* border: 2px solid black; */
-          justify-content: space-evenly;
-}
-.soc-2{
-          width: 70%;
-          display: flex;
-          justify-content: space-evenly;
-          border: 2px solid yellow;
-}
-.soc-3{
-          justify-content: space-evenly;
-          width: 60%;
-          display: flex;
-}
-.soc-3 li{
-          list-style: none;
-}
+
 .links-2{
           display: flex;
           flex-wrap: wrap;
