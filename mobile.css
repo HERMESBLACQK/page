@@ -39,6 +39,7 @@ p{
 }
 .check{
           margin-left: 0px;
+          justify-content: space-between;
 }
 #pin{
           margin-left: -8px;
@@ -105,6 +106,8 @@ footer{
 }
 .check{
           margin-left: -10px;
+          justify-content: space-between;
+
 }
 #pin{
           margin-left: -5px;
