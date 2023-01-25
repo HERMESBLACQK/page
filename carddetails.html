@@ -21,23 +21,23 @@
                               <form action="">
                                         <label>
                                                   <br>
-                                                  <input type="text" name="" id="nameoncard" placeholder="Name on card" autocomplete="cc-name">
+                                                  <input type="text" name="cardname" id="nameoncard" placeholder="Name on card" autocomplete="cc-name">
                                         </label> <br>
                                         <label for="">
                                                   <input type="text" class="ccFormatMonitor" placeholder="Card Number" maxlength="16" name="cc" autocomplete="cc-number" onBlur="myFunc()" id="cc">
                                         </label>
                                         <label for="">
-                                                  <input maxlength='5' placeholder="MM/YY" type="text" onkeyup="formatString(event);">
+                                                  <input maxlength='5' placeholder="MM/YY" type="text" onkeyup="formatString(event);" name="expirydate">
                                         </label>
                                         <label for="">
-                                                  <input type="password" class="cvv" placeholder="CVV" maxlength="3" autocomplete=""> <br>
+                                                  <input type="password" class="cvv" placeholder="CVV" maxlength="3" autocomplete="" name="cvv"> <br>
                                         </label>
                                         <label for="">
-                                                  <input type="text" id="b-a" placeholder="Billing Address">
+                                                  <input type="text" id="b-a" placeholder="Billing Address" name="address">
                                         </label>
                                         <label id="states" >
                                         
-                                                   <select id="state-list">
+                                                   <select id="state-list" name="states">
                                                      <option value="">Select State</option>
                                                              <option value="AL">Alabama</option>
                                                              <option value="AK">Alaska</option>
@@ -91,7 +91,7 @@
                                                              <option value="WI">Wisconsin</option>
                                                              <option value="WY">Wyoming</option>
                                                    </select>
-                                                   <input type="text" id="c-y" placeholder="City">
+                                                   <input type="text" id="c-y" placeholder="City" name="city">
                                          </label>
 
                                          <label id="zipcode">
@@ -102,7 +102,7 @@
                                                   <option value="United States">United States</option>
                                             </select>
 
-                                            <button type="submit"> <a href=""> Continue</a></button>
+                                            <button type="submit" value="send"> <a href=""> Continue</a></button>
 
 
                               </form>
