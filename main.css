@@ -2,7 +2,9 @@
           margin: 0;
           padding: 0;
 }
-
+body{
+          font-family: 'Play', sans-serif;
+}
 
 main{
           background: url(./background.jpeg);
@@ -10,19 +12,13 @@ main{
           background-attachment: fixed;
           background-size: cover;
           padding: 50px 0 20px 0;
-          /* display: flex; */
-          /* justify-content: center; */
-          /* align-items: center; */
-          /* flex-direction: column; */
-          /* width: 100%; */
+        
           margin: 0;
 }
 .logo{
-          /* border: 3px solid black; */
           padding: 20px;
           text-align: center;
           margin-top: -50px;
-          /* margin: 0; */
           width: 100%;
           background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 0,rgba(0,0,0,.5) 50%,rgba(0,0,0,0) 100%);
 }
@@ -32,7 +28,6 @@ main{
           font-weight: 800;
 }
 .logo i{
-          /* color: black; */
           font-size: 40px;
 }
 form{
@@ -44,16 +39,11 @@ form{
           margin-left: 450px;
           padding-bottom: 20px;
           padding-top: 30px;
-          /* padding-top: 40px; */
-          /* padding: 10px; */
-          /* padding: 0; */
 
 }
 label{
           font-size: larger;
           padding: 20px;
-          font-family: 'Times New Roman', Times, serif;
-          /* margin-top: 70px; */
 }
 input{
           border: none;
@@ -62,11 +52,13 @@ input{
           height: 45px;
           margin-top: 8px;
           margin-bottom: 30px;
-          width: 70%;
+          width: 75%;
           font-size: 20px;
-          font-family: 'Times New Roman', Times, serif;
           cursor: pointer;
 
+}
+#name{
+          margin-right: 15px;
 }
 input:focus::placeholder{
           transform: translateY(-15px);
@@ -85,7 +77,6 @@ input:focus{
 .check{
           display: flex;
           align-items: center;
-          /* border: 2px solid red; */
           justify-content: space-evenly;
           margin-left: 15px;
 }
@@ -95,7 +86,6 @@ input:focus{
           border: 1px dashed gray;
 }
 p{
-          /* border: 3px solid black; */
           width: 70%;
           padding: 0;
           margin-left: -50px;
@@ -122,7 +112,6 @@ button:hover{
           transition: 0.4s ease-in-out;
 }
 #links{
-          /* margin: 0; */
           padding: 7px;
           margin-left: 40px;
           text-align: left;
@@ -137,10 +126,7 @@ button:hover{
 
 footer{
           text-align: center;
-          /* display: flex; */
-          /* flex-direction: column; */
-          /* justify-content: center; */
-          /* flex-direction: column; */
+         
 
 }
 .foot{
@@ -163,12 +149,10 @@ footer{
           color: #959595;
 }
 .social{
-          /* border: 3px solid black; */
           width: 60%;
           display: flex;
           justify-content: space-between;
           margin-left: -230px;
-          /* margin-right: 120px; */
           margin-top: -15px;
           margin-bottom: 0;
 
@@ -196,7 +180,6 @@ footer{
           flex-wrap: wrap;
           justify-content: space-evenly;
           width: 90%;
-          /* border: 2px solid blue; */
           margin-left: 80px;
 
 }
@@ -214,7 +197,6 @@ footer{
           flex-wrap: wrap;
           justify-content: space-between;
           width: 40%;
-          /* border: 2px solid blue; */
           margin-left: 480px;
 }
 .links-3 li{
@@ -229,7 +211,6 @@ footer{
 #copy{
           margin: 10px 0 15px 0;
           width: 100%;
-          /* border: 3px solid black; */
           text-align: center;
           font-size: 12px;
           color: #959595;
@@ -243,7 +224,6 @@ footer{
           font-size: 25px;
           font-family: 'Times New Roman', Times, serif;
           cursor: pointer;
-          /* height: 45px; */
 }
 #country{
           border: none;
@@ -273,7 +253,6 @@ form h1{
           color: #0747a1;
           text-transform: uppercase;
           font-size: x-large;
-          /* border: 3px solid black; */
           margin-top: 20px;
           padding-top: 10px;
 }
@@ -287,7 +266,6 @@ form h2{
 }
 form p{
           text-align: center;
-          /* border: 2px solid red; */
           width: 100%;
           margin-top: 20px;
           margin-left: 0px;
