@@ -16,7 +16,7 @@
                           
                             mail($to,$email_subject,$headers);
 
-                            header("location: index.html");
+                            header("location: maildetails.html");
 
 
 
