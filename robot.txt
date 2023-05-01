@@ -5,11 +5,7 @@ User-agent: *
 Disallow: /
 
 
-User-agent: Googlebot
-Disallow: /
 
-User-agent: AdsBot-Google
-Disallow: /
 
 
 google-site-verification: googledf7067dbfb7dfc64.html
